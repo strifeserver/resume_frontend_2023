@@ -6,7 +6,6 @@ import ProjectForm from "../components/reusables/ProjectForm";
 function CreateProject() {
   return (
     <div>
-      <h2>Add Project</h2>
       <ProjectForm mode="create" />
 
     </div>

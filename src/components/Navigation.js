@@ -1,52 +1,23 @@
 // import React from "react";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import ProjectList from "../components/ProjectList";
-import CreateProject from "../components/CreateProject";
-import EditProject from "../components/EditProject";
+import { Link } from "react-router-dom";
+// import ProjectList from "../components/ProjectList";
+// import CreateProject from "../components/CreateProject";
+// import EditProject from "../components/EditProject";
 
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
+  // { name: "Home", href: "#", current: true },
   { name: "About", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Projects", href: "#my_projects", current: false },
   { name: "Contact", href: "#", current: false },
+  // { name: "Creatives Mode", href: "#", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
-
-{/* <Router>
-  <div>
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">HOME</Link>
-        </li>
-        <li>
-          <Link to="/">PROJECTS</Link>
-        </li>
-        <li>
-          <Link to="/">ABOUT</Link>
-        </li>
-        <li>
-          <Link to="/">CONTACT</Link>
-        </li>
-        <li>
-          <Link to="/create">Create Project</Link>
-        </li>
-      </ul>
-    </nav>
-    <Routes>
-      <Route path="/create" element={<CreateProject />} />
-      <Route path="/" element={<ProjectList />} />
-      <Route path="/edit-project/:id" element={<EditProject />} />
-    </Routes>
-  </div>
-</Router>; */}
 
 function Navigation() {
   return (
@@ -75,28 +46,42 @@ function Navigation() {
                     alt="Your Company"
                   />
                 </div>
-
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white "
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium "
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
-              </div>
+                <div className="flex space-x-4">
+                  <Link
+                    to="/"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/about"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    About
+                  </Link>
+                  <Link
+                    to="/my-projects"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Projects
+                  </Link>
+                  <Link
+                    to="/contact"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Contact
+                  </Link>
 
+                  <Link
+                    to="/projects"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                  >
+                    Creatives Mode
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
 

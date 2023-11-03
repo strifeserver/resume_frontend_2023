@@ -227,7 +227,14 @@
 }
 
 
+.h2{
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.btnColorRed{
+  background-color:rgb(254, 70, 82)
+}
 
 
 
