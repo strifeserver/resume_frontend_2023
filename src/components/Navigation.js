@@ -40,11 +40,12 @@ function Navigation() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  <p className="white-text small-font">In Development 2024</p>
+                  {/* <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
-                  />
+                  /> */}
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -74,12 +75,12 @@ function Navigation() {
                     Contact
                   </Link>
 
-                  <Link
+                  {/* <Link
                     to="/projects"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Creatives Mode
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

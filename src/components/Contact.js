@@ -4,7 +4,7 @@
 function Contact() {
     return (
       <div>
-          <span>Contact</span>
+          <span>Contact - coming soon</span>
       </div>
     );
   }

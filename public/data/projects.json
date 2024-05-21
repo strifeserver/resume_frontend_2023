@@ -1,3 +1,38 @@
-{
-    
-}
+[
+        {
+        "_id": "65202ba5ff1621afb9cbbfbc",
+        "project_name": "The Hub",
+        "project_description": "The SMC Hub is the online shopping platform operated by San Miguel Corporation, offering a diverse range of its most trusted food, beverage, and essential consumer brands. I contributed to its backend development, focusing primarily on the Admin/CMS aspects and data management.",
+        "order_by": 1,
+        "company": "Synermaxx",
+        "techs": "Laravel, PHP, Jquery, Javascript, Angular, API SMS",
+        "images": "thehub.png"
+        },
+        {
+        "_id": "660a720947fabcf58c3624db",
+        "project_name": "BDO Cash Availment",
+        "project_description": "The card offers financial flexibility and convenient access to cash based on the promotions/plans associated with the card. Customers enter a reference number, receive an OTP, and then select payment plans to avail cash. I contributed to both the backend and frontend development, focusing on data submission and adhering to the design templates provided by the designer.",
+        "order_by": 2,
+        "company": "Synermaxx",
+        "techs": " React, Typescript, API SMS",
+        "images": "bdo.png"
+        },
+        {
+        "_id": "660a807447fabcf58c3624dd",
+        "project_name": "Suzuki Service Campaign",
+        "project_description": "Suzuki prioritizes customer safety above all else. Service campaigns are implemented to ensure that your Suzuki vehicle meets the highest quality and safety standards. I contributed to the backend development and also assisted with frontend development when the frontend team was overloaded.",
+        "order_by": 3,
+        "company": "Transcosmos Asia Philippines",
+        "techs": "Laravel, PHP, React, Jenkins, Jira, API SMS, Putty, Git",
+        "images": "suzukiservicecampaign.png"
+        },
+        {
+        "_id": "66430d1dc1d0825832af067c",
+        "project_name": "Ajinomoto Thailand Ecommerce",
+        "project_description": "I am the main developer for Ajinomoto Thailand's Ecommerce platform, responsible for both the frontend and backend of the admin side. Our platform leverages Shopify for the customer interface and utilizes Laravel/PHP as middleware to export order data into CSV/XLSX files for integration with SAP and the LINE plugin.",
+        "order_by": 4,
+        "company": "Transcosmos Asia Philippines",
+        "techs": "Laravel, PHP, React, jquery, Shopify Webhook Integration and API Utilization, LINE Plugin Integration, Jenkins, Putty, Git",
+        "images": "ajinomoto.png"
+        }
+]

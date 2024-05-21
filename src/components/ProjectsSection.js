@@ -38,14 +38,14 @@ function ProjectsSection() {
           <span className="h2 m-2">Projects</span>
           <br />
           <br />
-          <Router>
+          {/* <Router>
             <Link
               to={`/create-project/`}
               className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded m-2"
             >
               Create Project
             </Link>
-          </Router>
+          </Router> */}
           <br />
           <br />
           <table className="min-w-full m-1">

@@ -1,11 +1,13 @@
 
-
+import ProjectLists from "../components/ProjectLists";
 
 function Projects() {
     return (
       <div>
-          <span>Projects</span>
-      </div>
+      <section id="project_section" >
+        <ProjectLists></ProjectLists>
+      </section>
+    </div>
     );
   }
   
