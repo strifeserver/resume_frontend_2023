@@ -47,7 +47,7 @@
 }
 
 .mainProfilePicture {
-  height: 550px;
+  height: 650px;
   min-width: 250px;
   background-image: url("../public/images/portrait2.png");
   background-size: contain;
@@ -57,6 +57,7 @@
 
 .introDataSection {
   position: relative;
+  top: 100px;
   left: -50px;
 }
 
@@ -274,9 +275,20 @@
 .m-left{
   margin-left: 50px;
 }
-.tech-section{
+/* .tech-section{
   position: relative;
   right: 120px;
+} */
+
+.tech-section{
+  position: relative;
+    bottom: 300px;
+}
+
+@media (min-width: 1024px) {
+    .lg\:col-start-2 {
+        grid-column-start: 2;
+    }
 }
 .btn__innerCustom {
   width: 130px;
@@ -410,4 +422,20 @@ body {
   }
 
 
+}
+
+
+
+@media (min-width: 1024px) {
+  .tech-section{
+    position: relative;
+    right: -80px;
+    bottom: 300px;
+  }
+}
+
+@media (min-width: 425px) {
+  .tech-section{
+    display:none;
+  }
 }
