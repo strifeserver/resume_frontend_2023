@@ -57,8 +57,9 @@
 
 .introDataSection {
   position: relative;
-  top: 100px;
-  left: -50px;
+  /* top: 100px;
+  left: -50px; */
+  left: -40px; 
 }
 
 .introDataMain {
@@ -280,10 +281,10 @@
   right: 120px;
 } */
 
-.tech-section{
+/* .tech-section{
   position: relative;
     bottom: 300px;
-}
+} */
 
 @media (min-width: 1024px) {
     .lg\:col-start-2 {
@@ -424,18 +425,37 @@ body {
 
 }
 
-
+.tech-section{
+  position:relative;
+  left: -60px;
+}
 
 @media (min-width: 1024px) {
-  .tech-section{
+  /* .tech-section{
     position: relative;
     right: -80px;
     bottom: 300px;
-  }
+  } */
 }
 
 @media (min-width: 425px) {
+
+  /* .tech-section-mobile{
+    display:none;
+  } */
+}
+
+@media (max-width: 425px) {
   .tech-section{
     display:none;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn__innerCustom {
+    width: 115px;
+  }
+  .skilltext{
+    font-size: 10px !important;
   }
 }

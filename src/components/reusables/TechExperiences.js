@@ -20,15 +20,14 @@ function TechExperiences() {
   ];
 
   return (
-    <div>
+    <div  >
       {/* Skill/Tech Section */}
-      <div class="sm:row-span-1 md:row-span-2 col-span-5 mt-1" >
-        <div className="grid sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-8">
-          <div className="md:col-span-12 lg:col-span-7">
+        <div className="grid grid-cols-10 md:grid-cols-9 lg:grid-cols-10 xl:grid-cols-12 guide" >
+          <div className="col-span-12">
             <p className="white-text ">Tech Experience:</p> <br></br>
           </div>
           {fileNames.map((fileName, index) => (
-            <div key={index} className="md:col-span-5 lg:col-span-2">
+            <div key={index} className="col-span-10 md:col-span-4 lg:col-span-4 ">
               <button className="btn btn--light " key={index}>
                 <span className="btn__innerCustom ">
                   <span className="btn__content flex items-center justify-center ">
@@ -54,7 +53,6 @@ function TechExperiences() {
             </div>
           ))}
         </div>
-      </div>
       {/* Skill/Tech Section */}
     </div>
   );
