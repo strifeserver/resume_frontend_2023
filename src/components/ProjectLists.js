@@ -68,7 +68,7 @@ function ProjectLists() {
                     <div className="lg:col-start-7 lg:col-end-13  xl:col-start-7 xl:col-end-12 p-4 col-span-3 ">
                       <p>Company: {project.company}</p>
                       <p><span className="project-name">{project.project_name}</span> </p>
-                      <p>Project Description: <span className="gray-text">{project.project_description}</span></p>
+                      <p> <span className="white-text">{project.project_description}</span></p>
                       <p>Techs: {project.techs}</p>
                     </div>
                   </>
@@ -77,7 +77,7 @@ function ProjectLists() {
                     <div className="lg:col-start-1 lg:col-end-7 xl:col-start-1 xl:col-end-6 p-4 col-span-3 right-aligned-text ">
                       <p>Company: {project.company}</p>
                       <p><span className="project-name">{project.project_name}</span> </p>
-                      <p>Project Description: <span className="gray-text">{project.project_description}</span> </p>
+                      <p> <span className="white-text">{project.project_description}</span> </p>
                       <p>Techs: {project.techs}</p>
                     </div>
                     <div className="lg:col-start-7 lg:col-end-13 xl:col-start-7 xl:col-end-12 p-4 col-span-1">

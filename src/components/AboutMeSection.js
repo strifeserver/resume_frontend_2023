@@ -56,7 +56,8 @@ function AboutMeSection() {
       grid-flow-col 
       gap-4  "
       >
-        <div class="
+        <div
+          class="
           sm:row-span-3 
           md:row-span-3 
           lg:row-span-3 
@@ -64,7 +65,8 @@ function AboutMeSection() {
           sm:col-span-1
           md:col-span-6 
           
-          mainProfilePicture">
+          mainProfilePicture"
+        >
           {/* <img src="images/portrait2.png" alt="Sample Image" class="  "></img> */}
         </div>
 
@@ -106,7 +108,6 @@ function AboutMeSection() {
           <div className="grid-cols-12 row-span-2 mt-10 tech-section ">
             <TechExperiences />
           </div>
-          
         </div>
         {/* Skill/Tech Section */}
         {/* <div class="md:row-span-2 md:col-span-5 mt-1 tech-section" > */}
@@ -114,41 +115,8 @@ function AboutMeSection() {
         {/* </div> */}
         {/* Skill/Tech Section */}
       </div>
-
-      <div className="p-4 col-span-12  ml-5 tech-section-mobile" hidden>
-        {/* Skill/Tech Section */}
-        <div className="grid grid-cols-12 ">
-          <div className="col-span-12 ">
-            <p className="white-text ">Tech Experience:</p> <br></br>
-          </div>
-          {fileNames.map((fileName, index) => (
-            <div key={index} className="col-span-6 ">
-              <button className="btn btn--light " key={index}>
-                <span className="btn__innerCustom ">
-                  <span className="btn__content flex items-center justify-center ">
-                    <div className="flex flex-col contentItems">
-                      <div className="grid grid-cols-8 ">
-                        <div className="col-start-1 col-end-5 ">
-                          <img
-                            src={`/images/skills/${fileName}`}
-                            className="skillSize"
-                            alt={fileName}
-                          />
-                        </div>
-                        <div className="col-start-7 col-end-8 btn__content flex items-center justify-center  ">
-                          <span className="skilltext white-text">
-                            {fileName.split(".")[0]}
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </span>
-                </span>
-              </button>
-            </div>
-          ))}
-        </div>
-        {/* Skill/Tech Section */}
+      <div className=" tech-section-mobile ml-3">
+        <TechExperiences />
       </div>
 
       <div

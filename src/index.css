@@ -440,15 +440,16 @@ body {
 
 @media (min-width: 425px) {
 
-  /* .tech-section-mobile{
+  .tech-section-mobile{
     display:none;
-  } */
+  } 
 }
 
 @media (max-width: 425px) {
   .tech-section{
     display:none;
   }
+
 }
 
 @media (max-width: 768px) {
