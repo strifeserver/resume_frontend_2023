@@ -56,24 +56,24 @@ function Navigation() {
                   >
                     Home
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/about"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
                     About
-                  </Link>
+                  </Link> */}
                   <Link
                     to="/my-projects"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Projects
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/contact"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                   >
                     Contact
-                  </Link>
+                  </Link> */}
 
                   {/* <Link
                     to="/projects"

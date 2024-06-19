@@ -70,6 +70,7 @@ function ProjectLists() {
                       <p><span className="project-name">{project.project_name}</span> </p>
                       <p> <span className="white-text">{project.project_description}</span></p>
                       <p>Techs: {project.techs}</p>
+                      <p>URL:  <a href={project.url} target="_blank" className="urlColor">Click Here</a></p>
                     </div>
                   </>
                 ) : (
@@ -79,6 +80,7 @@ function ProjectLists() {
                       <p><span className="project-name">{project.project_name}</span> </p>
                       <p> <span className="white-text">{project.project_description}</span> </p>
                       <p>Techs: {project.techs}</p>
+                      <p>URL:  <a href={project.url} target="_blank" className="urlColor">Click Here</a></p>
                     </div>
                     <div className="lg:col-start-7 lg:col-end-13 xl:col-start-7 xl:col-end-12 p-4 col-span-1">
                       <img

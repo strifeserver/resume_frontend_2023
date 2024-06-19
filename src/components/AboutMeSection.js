@@ -4,19 +4,6 @@ import axios from "axios";
 import { Link } from "react-router-dom"; // Import the Link component
 
 function AboutMeSection() {
-  //   const [projects, setProjects] = useState([]);
-
-  //   useEffect(() => {
-  //     axios
-  //       .get("http://localhost:5000/api/projects")
-  //       // axios.get("/data/projects.json")
-  //       .then((response) => {
-  //         setProjects(response.data);
-  //       })
-  //       .catch((error) => {
-  //         console.error("Error fetching projects:", error);
-  //       });
-  //   }, []);
 
   const name_container = {
     height: "175px",
@@ -244,7 +231,7 @@ function AboutMeSection() {
                 <span className="btn__slide"></span>
                 <span className="btn__content flex items-center justify-center ">
                   <div className="flex flex-col contentItems">
-                    <p>06 / Freelance</p>
+                    <p>04 / Freelance</p>
                     <p>05 / Corporate</p>
                     <p>Clients</p>
                   </div>
