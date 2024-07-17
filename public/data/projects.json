@@ -18,25 +18,6 @@
     "techs": " React, Typescript, API SMS",
     "images": "bdo.PNG",
     "url": ""
-  },
-  {
-    "_id": "660a807447fabcf58c3624dd",
-    "project_name": "Suzuki Service Campaign",
-    "project_description": "Suzuki prioritizes customer safety above all else. Service campaigns are implemented to ensure that your Suzuki vehicle meets the highest quality and safety standards. I contributed to the backend development and also assisted with frontend development when the frontend team was overloaded.",
-    "order_by": 3,
-    "company": "Transcosmos Asia Philippines",
-    "techs": "Laravel, PHP, React, Jenkins, Jira, API SMS, Putty, Git",
-    "images": "suzukiservicecampaign.png",
-    "url": "https://autoservicecampaign.suzuki.com.ph/"
-  },
-  {
-    "_id": "66430d1dc1d0825832af067c",
-    "project_name": "Ajinomoto Thailand Ecommerce",
-    "project_description": "I am the main developer for Ajinomoto Thailand's Ecommerce platform, responsible for both the frontend and backend of the admin side. Our platform leverages Shopify for the customer interface and utilizes Laravel/PHP as middleware to export order data into CSV/XLSX files for integration with SAP and the LINE plugin.",
-    "order_by": 4,
-    "company": "Transcosmos Asia Philippines",
-    "techs": "Laravel, PHP, React, jquery, Shopify Webhook Integration and API Utilization, LINE Plugin Integration, Jenkins, Putty, Git",
-    "images": "ajinomoto.png",
-    "url": "https://ajinomotosalesth.com/account/login"
   }
+
 ]
